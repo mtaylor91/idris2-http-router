@@ -2,9 +2,11 @@ module Data.HTTP.Router
 
 import Data.Buffer.Indexed
 import Data.ByteString
+import Data.IORef
 import Data.List1
 import Data.String
 import Network.HTTP.Application
+import Network.HTTP.Connection
 import Network.HTTP.Headers
 import Network.HTTP.Request
 import Network.HTTP.Response
